@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GeeKVision</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <style>
+    .navbar{border-bottom:solid;box-shadow:0 0 5px 1px}
+      body>.jumbotron{background:url(jumbotron.jpg) center center no-repeat;}
+      #carouselExampleCaptions{box-shadow: 0 0 10px 1px;    padding-bottom: 12em !important;    background: rgba(0,0,0,.5);padding: .5em;}
+      #carouselExampleCaptions img {    height: 300px !important;  border-radius:5px;}
+      #carouselExampleCaptions .carousel-indicators {margin:0;}
+      #carouselExampleCaptions .carousel-caption {padding:0;top:105%;bottom:unset;}
+      .carousel-control-next-icon,.carousel-control-prev-icon{background-color:black;}
+      .carousel-inner{overflow: visible;}
+	  .carousel-item{}
+      .card{background: rgba(0,0,0,.3);color:white;transition:background .4s, color .7s;}
+      .card:hover{background: white;color:black;}
+      footer{border-top:solid}
+      .footer-copyright{border-top:solid}
+	  /*****************************/
+	  .myNavbar{}
+	  .myNavbar__brand{}
+	  .jm{}
+	  .jm__h{}
+	  .jm__accroche{}
+	  .jm__lead{}
+	  .jm__lead span{display: block;    margin-bottom: 1em;    text-shadow: 0 0 2px white, 0 0 4px black, 0 0 8px black;}
+	  .cards{}
+	  .cards__item:not(:hover){margin: 1em 0;box-shadow:0 0 10px 1px black;transition:box-shadow .4s;}
+    </style>
+  </head>
+  <body>
+      <!-- Image and text -->
+    <nav class="myNavbar navbar navbar-light bg-light">
+      <a class="myNavbar__brand navbar-brand" href="#">
+        <img src="logo GV.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+        GeekVision
+      </a>
+      <a target="_blank" href="https://fr-fr.facebook.com/geekvisionbykouloumanlan/" title="Communauté facebook de geekvision"><i class="fab fa-facebook"></i></a>
+      <a target="_blank" class="btn btn-primary" href="blog">Blog</a>
+      <a target="_blank" class="btn btn-primary" href="https://geekvisionshop.bigcartel.com/">E-shop</a>
+      <a class="myNavbar__email" href="mailto:koulou1988@gmail.com">koulou1988@gmail.com</a>
+      <a class="myNavbar__tel" href="tel:0033658322220">06 58 32 22 20</a>
+    </nav>
+    <div class="jm jumbotron text-center text-light">
+      <h1 class="jm__h1 display-4">Bienvenue chez Geekvision</h1>
+      <p class="jm__accroche lead">Be horny !!</p>
+      <hr class="my-4">
+      <p class="jm__lead lead">
+      	<span>Before it's too late...</span>
+        <a target="_blank" class="btn btn-primary btn-lg" href="https://geekvisionshop.bigcartel.com/" role="button">Sape-toi vite !</a>
+      </p>
+    </div>
+    <hr>
+    <main class="container">
+      <div id="carouselExampleCaptions" class="diapo carousel slide text-center pb-5 mt-5" data-ride="carousel">
+          <ol class="diapo__captions carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class=""></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1" class=""></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2" class=""></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3" class="active"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="diapo__item carousel-item active">
+              <img class="d-inline-block" data-src="" alt="" src="carousel-0.jpg" data-holder-rendered="true">
+              <div class="carousel-caption d-md-block">
+                <h5>Geek Vision x Donna Troppe</h5>
+                <p>Nous venons de développer une collection de capsule sur le thème du Polaroïd avec la Photographe érotique DonnaTrope. Ce Polaroïd imprimé sur notre t-shirt représente une femme en lingerie et des talons chic.</p>
+              </div>
+            </div>
+            <div class="diapo__item carousel-item">
+              <img class="d-inline-block" data-src="" alt="" src="carousel-1.jpg" data-holder-rendered="true">
+              <div class="carousel-caption d-md-block">
+                <h5>GeekVision Camo</h5>
+                <p>Geek Vision renoue avec ses origines skate avec cette collection velcro scratch interchangeable et détachable ( camo vert ,bleu ,rose )</p>
+              </div>
+            </div>
+            <div class="diapo__item carousel-item">
+              <img class="d-inline-block" data-src="" alt="" src="carousel-2.jpg" data-holder-rendered="true">
+              <div class="carousel-caption d-md-block">
+                <h5>Bio de la marque</h5>
+                <p>Koulou Le créateur de marque Parisienne GeekVision est  Passionné de Pin-Up depuis toujours et monte sa ligne en 2009.. Nous collaborons avec les photographes comme la crème Yonehara Yasumasa, la Photographe érotique féminin ShelbieDimond, Estevan Oriol ,TheCobrasnake et le DJ SteveAoki..</p>
+              </div>
+            </div>
+          </div>
+          <a class="diapo__controlPrev carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="diapo__controlNext carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        <hr>
+
+        <div class="cards row justify-content-around">
+          <div class="card cards__item my-sm-3" style="width: 18rem;">
+            <img class="card-img-top" src="carousel-0.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Geek Vision x Donna Trope</h5>
+              <p class="card-text">Nous venons de développer une collection de capsule sur le thème du Polaroïd avec la Photographe érotique DonnaTrope. Ce Polaroïd imprimé sur notre t-shirt représente une femme en lingerie et des talons chic.</p>
+              <a href="#" class="btn btn-secondary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card cards__item my-sm-3" style="width: 18rem;">
+            <img class="card-img-top" src="carousel-1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">GeekVision Camo</h5>
+              <p class="card-text">Geek Vision renoue avec ses origines skate avec cette collection velcro scratch interchangeable et détachable ( camo vert, bleu, rose)</p>
+              <a href="#" class="btn btn-secondary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card cards__item my-sm-3" style="width: 18rem;">
+            <img class="card-img-top" src="carousel-2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Bio de la marque</h5>
+              <p class="card-text">Koulou Le créateur de marque Parisienne GeekVision est  Passionné de Pin-Up depuis toujours et monte sa ligne en 2009.. Nous collaborons avec les photographes comme la crème Yonehara Yasumasa, la Photographe érotique féminin ShelbieDimond, Estevan Oriol ,TheCobrasnake et le DJ SteveAoki..</p>
+              <a href="#" class="btn btn-secondary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+	</main>
+
+
+
+      <hr>
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4 mt-5">
+      <div class="container">
+
+       <!--Grid row-->
+       <div class="row">
+
+         <!--Grid column-->
+         <div class="col-md-6 mb-4">
+
+           <!-- Form -->
+           <form class="form-inline">
+             <textarea class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Ecrit un message à geekvision" aria-label="Search"></textarea>
+             <i class="fas fa-search" aria-hidden="true"></i>
+             <div class="input-group-append">
+               <button class="btn btn-sm btn-outline-white my-0" type="button">Envoyer</button>
+             </div>
+           </form>
+           <!-- Form -->
+            <hr>
+         <!--Grid column-->
+           <form class="input-group">
+             <input type="text" class="form-control form-control-sm" placeholder="Ton email" aria-label="Ton email" aria-describedby="basic-addon2">
+             <div class="input-group-append">
+               <button class="btn btn-sm btn-outline-white my-0" type="button">S'inscrire</button>
+             </div>
+           </form>
+            <hr>
+         </div>
+         <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-6 mb-4 row justify-content-around" style="font-size:2em;">
+            <a target="_blank" href="https://www.instagram.com/koulou.manlan" title="GeekVision expose son concept du pin-up girl sur Instagram !"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://fr-fr.facebook.com/geekvisionbykouloumanlan/" title="GeekVision expose son concept du pin-up girl sur facebook !"><i class="fab fa-facebook"></i></a>
+            <a target="_blank" href="" title="GeekVision bientôt disponible sur youtube" class="btn disabled"><i class="fab fa-youtube"></i></a>
+         </div>
+       </div>
+       <!--Grid row-->
+
+     </div>
+
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-6 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <h5 class="text-uppercase text-center">Partenaires</h5>
+
+            <ul class="list-unstyled row justify-content-around">
+              <li>
+                <a target="_blank" href="http://candyrosie.com/">Candy Rosie</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://hypebeast.com/">Hypebeast</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://fr-fr.facebook.com/manlankoulou" title="">Koulou Manlan</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-6 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <h5 class="text-uppercase text-center">Liens</h5>
+
+            <ul class="list-unstyled row justify-content-around">
+              <li>
+                <a target="_blank" href="http://candyrosie.com/event-geek-vision-x-steve-aoki-x-the-cobrasnake/">GEEK VISION X STEVE AOKI X THE COBRASNAKE</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://hypebeast.com/2010/12/geek-vision-x-yone-capsule-collection">GEEK Vision x YONE Capsule Collection</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </div>
+      <!-- Footer Links -->
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3 bg-secondary">© <span id="copyrightyear"></span> Copyright:
+        <a href="/geekvision.com/" title="Le pin-up français, par Koulou Manlan">Geekvision.com</a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+  </body>
+  <script>copyrightyear.innerHTML=new Date().getFullYear()</script>
+</html>
